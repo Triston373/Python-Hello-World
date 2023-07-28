@@ -20,10 +20,18 @@ print(rating)
 print(name)
 print(boolean)
 
+# Ask for user input, print statement and wait for user to type in terminal.
+# Stores input in variable
+user_name = input('What is your name? ')
+user_color = input('What color is your favorite? ')
+# Concatenate string variables to print on one line
+print('Hello, ' + user_name + '! Your favorite color is ' + user_color)
 
-
-
-
+# Example of type casting from string to int
+birth_year = input('What is your birth year? ')
+print(type(birth_year))
+age = 2023 - int(birth_year)
+print(age)
 
 # Print statement multiplier
 print('x5 ' * 5)
